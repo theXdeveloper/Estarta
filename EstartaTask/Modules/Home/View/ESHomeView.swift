@@ -25,9 +25,8 @@ struct ESHomeView : View {
             case .loading:
                 //View the loading indicator with some texts
                 VStack {
-                    Text("Estarta")
+                    Text("Estarta").font(.system(size: 36, weight: .semibold))
                     ProgressView()
-                    Spacer()
                 }
             case .failed(let error):
                 //TODO - Sawsanm
