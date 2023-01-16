@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4530A31C2972D01300644B6D /* EstartaTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A31B2972D01300644B6D /* EstartaTaskApp.swift */; };
-		4530A31E2972D01300644B6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A31D2972D01300644B6D /* ContentView.swift */; };
 		4530A3202972D01700644B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4530A31F2972D01700644B6D /* Assets.xcassets */; };
 		4530A3232972D01700644B6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4530A3222972D01700644B6D /* Preview Assets.xcassets */; };
 		4530A32D2972D01700644B6D /* EstartaTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A32C2972D01700644B6D /* EstartaTaskTests.swift */; };
@@ -22,6 +21,10 @@
 		4530A3542972F46400644B6D /* ESAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A3532972F46400644B6D /* ESAPIs.swift */; };
 		4530A35729734EEB00644B6D /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A35629734EEB00644B6D /* HomeList.swift */; };
 		4530A3592973559500644B6D /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A3582973559500644B6D /* ItemRow.swift */; };
+		45846B392975C30300037FA8 /* ESDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45846B382975C30300037FA8 /* ESDetailsView.swift */; };
+		45846B472975D04400037FA8 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45846B462975D04400037FA8 /* AsyncImage.swift */; };
+		45846B492975E36600037FA8 /* ESImageCachingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45846B482975E36600037FA8 /* ESImageCachingManager.swift */; };
+		45846B4B2975E3DE00037FA8 /* ESImageFetchingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45846B4A2975E3DE00037FA8 /* ESImageFetchingManager.swift */; };
 		A1C382C9CD831CC5EB109F0B /* Pods_EstartaTask_EstartaTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24862CA9965618ED70A3699 /* Pods_EstartaTask_EstartaTaskUITests.framework */; };
 		EF02B401BB292ECE4D6A22D4 /* Pods_EstartaTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773C290EDCEE2E03C5F88512 /* Pods_EstartaTask.framework */; };
 		F40C632A13595CA936BA6884 /* Pods_EstartaTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E4EA8E00A3AB06D44966B3 /* Pods_EstartaTaskTests.framework */; };
@@ -50,7 +53,6 @@
 		2FF5E22CD10EEEB05847CD3D /* Pods-EstartaTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstartaTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-EstartaTaskTests/Pods-EstartaTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4530A3182972D01300644B6D /* EstartaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstartaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4530A31B2972D01300644B6D /* EstartaTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstartaTaskApp.swift; sourceTree = "<group>"; };
-		4530A31D2972D01300644B6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4530A31F2972D01700644B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4530A3222972D01700644B6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4530A3282972D01700644B6D /* EstartaTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstartaTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +68,10 @@
 		4530A3532972F46400644B6D /* ESAPIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESAPIs.swift; sourceTree = "<group>"; };
 		4530A35629734EEB00644B6D /* HomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
 		4530A3582973559500644B6D /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		45846B382975C30300037FA8 /* ESDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESDetailsView.swift; sourceTree = "<group>"; };
+		45846B462975D04400037FA8 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		45846B482975E36600037FA8 /* ESImageCachingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESImageCachingManager.swift; sourceTree = "<group>"; };
+		45846B4A2975E3DE00037FA8 /* ESImageFetchingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESImageFetchingManager.swift; sourceTree = "<group>"; };
 		51B01D7D559B9C4C96E170BD /* Pods-EstartaTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstartaTaskTests.release.xcconfig"; path = "Target Support Files/Pods-EstartaTaskTests/Pods-EstartaTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		6707E2A9BE61C4FFC0EC775C /* Pods-EstartaTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstartaTask.release.xcconfig"; path = "Target Support Files/Pods-EstartaTask/Pods-EstartaTask.release.xcconfig"; sourceTree = "<group>"; };
 		773C290EDCEE2E03C5F88512 /* Pods_EstartaTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstartaTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,10 +157,11 @@
 			isa = PBXGroup;
 			children = (
 				4530A31B2972D01300644B6D /* EstartaTaskApp.swift */,
-				4530A31D2972D01300644B6D /* ContentView.swift */,
-				4530A3522972F44C00644B6D /* Constants */,
-				4530A3472972F0CC00644B6D /* Manager */,
 				4530A3452972F04600644B6D /* Modules */,
+				4530A3472972F0CC00644B6D /* Manager */,
+				4530A3522972F44C00644B6D /* Constants */,
+				45846B3A2975C4D500037FA8 /* CommonUIComponents */,
+				45846B3D2975C99B00037FA8 /* Extensions */,
 				4530A31F2972D01700644B6D /* Assets.xcassets */,
 				4530A3212972D01700644B6D /* Preview Content */,
 			);
@@ -189,6 +196,7 @@
 		4530A3452972F04600644B6D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				45846B372975C2DE00037FA8 /* Details */,
 				4530A3462972F06000644B6D /* Home */,
 			);
 			path = Modules;
@@ -209,6 +217,8 @@
 			isa = PBXGroup;
 			children = (
 				4530A3482972F0EE00644B6D /* ESNetworkManager.swift */,
+				45846B482975E36600037FA8 /* ESImageCachingManager.swift */,
+				45846B4A2975E3DE00037FA8 /* ESImageFetchingManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -237,6 +247,29 @@
 				4530A3582973559500644B6D /* ItemRow.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		45846B372975C2DE00037FA8 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				45846B382975C30300037FA8 /* ESDetailsView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		45846B3A2975C4D500037FA8 /* CommonUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				45846B462975D04400037FA8 /* AsyncImage.swift */,
+			);
+			path = CommonUIComponents;
+			sourceTree = "<group>";
+		};
+		45846B3D2975C99B00037FA8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -481,11 +514,14 @@
 				4530A3492972F0EE00644B6D /* ESNetworkManager.swift in Sources */,
 				4530A3512972F20200644B6D /* ESHomeCommunicator.swift in Sources */,
 				4530A35729734EEB00644B6D /* HomeList.swift in Sources */,
-				4530A31E2972D01300644B6D /* ContentView.swift in Sources */,
 				4530A3542972F46400644B6D /* ESAPIs.swift in Sources */,
+				45846B4B2975E3DE00037FA8 /* ESImageFetchingManager.swift in Sources */,
+				45846B492975E36600037FA8 /* ESImageCachingManager.swift in Sources */,
 				4530A31C2972D01300644B6D /* EstartaTaskApp.swift in Sources */,
 				4530A3592973559500644B6D /* ItemRow.swift in Sources */,
 				4530A34B2972F1A500644B6D /* ESHomeView.swift in Sources */,
+				45846B472975D04400037FA8 /* AsyncImage.swift in Sources */,
+				45846B392975C30300037FA8 /* ESDetailsView.swift in Sources */,
 				4530A34D2972F1B300644B6D /* ESHomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

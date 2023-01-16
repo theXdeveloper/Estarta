@@ -13,11 +13,14 @@ struct ItemRow: View {
     var body: some View {
         
         HStack {
-//            item.image
-//                .resizable()
-//                .frame(width: 50, height: 50)
-            Text(item.name)
+            AsyncImage(
+                url: URL(string: item.image_urls_thumbnails[0])!,
+                placeholder: { Text("...") }
+            )
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 50, height: 50)
             
+            Text(item.name)
             Spacer()
         }
     }

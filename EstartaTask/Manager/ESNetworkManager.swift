@@ -12,7 +12,6 @@ class ESNetworkManager: NSObject {
 
     //Shared instance
     static let shared = ESNetworkManager()
-
     
     /**
      *** Start monitoring the network reachability
@@ -44,7 +43,6 @@ class ESNetworkManager: NSObject {
         AF.request(url, method: .get, encoding: URLEncoding.default, headers: headers).response { response in
 
             guard let data = response.data else {
-                print("Empty data")
                 completionHandler(nil, response.error)
                 return;
             }

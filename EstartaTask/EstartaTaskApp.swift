@@ -12,7 +12,6 @@ struct EstartaTaskApp: App {
     var body: some Scene {
         WindowGroup {
             ESHomeView()
-            //ContentView()
         }
     }
 }

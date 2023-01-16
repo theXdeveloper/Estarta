@@ -8,19 +8,32 @@
 import Foundation
 
 extension ESHomeView {
-    class ESHomeViewModel: ObservableObject, ESHomeCommunicatorDelegate {
+    class ESHomeViewModel: ObservableObject {
 
-        @Published private(set) var results: [ItemData] = []
-//        @Published var isLoading: Bool   = false
+        enum State {
+            case none
+            case loading
+            case failed(Error)
+            case loaded(HomeList)
+        }
+        
+        @Published private(set) var state = State.none
+        private let homeCommunicator = ESHomeCommunicator()
         
         ///**
         ///  Preparing of the data of Home
         ///
         func getData() {
-            let homeCommunicator = ESHomeCommunicator()
-            homeCommunicator.delegate = self
-            homeCommunicator.getHomeData { data, err in
-                self.results = data?.results ?? []
+            state = .loading
+            homeCommunicator.getHomeData { [weak self] result,err  in
+                if let homeList = result {
+                    self?.state = .loaded(homeList)
+                    return;
+                } else if let error = err {
+                        self?.state = .failed(error)
+                        return;
+                }
+                self?.state = .none
             }
         }
         

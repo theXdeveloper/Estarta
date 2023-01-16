@@ -11,10 +11,6 @@ protocol ESHomeCommunicatorDelegate: AnyObject {
     func handleListing()
 }
 
-extension ESHomeCommunicatorDelegate {
-    func handleListing(){}
-}
-
 class ESHomeCommunicator {
     var networkManager = ESNetworkManager()
     var delegate: ESHomeCommunicatorDelegate?
