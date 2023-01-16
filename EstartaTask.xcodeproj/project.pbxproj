@@ -25,6 +25,7 @@
 		45846B472975D04400037FA8 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45846B462975D04400037FA8 /* AsyncImage.swift */; };
 		45846B492975E36600037FA8 /* ESImageCachingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45846B482975E36600037FA8 /* ESImageCachingManager.swift */; };
 		45846B4B2975E3DE00037FA8 /* ESImageFetchingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45846B4A2975E3DE00037FA8 /* ESImageFetchingManager.swift */; };
+		45846B4F2975E9B800037FA8 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45846B4E2975E9B800037FA8 /* String.swift */; };
 		A1C382C9CD831CC5EB109F0B /* Pods_EstartaTask_EstartaTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24862CA9965618ED70A3699 /* Pods_EstartaTask_EstartaTaskUITests.framework */; };
 		EF02B401BB292ECE4D6A22D4 /* Pods_EstartaTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773C290EDCEE2E03C5F88512 /* Pods_EstartaTask.framework */; };
 		F40C632A13595CA936BA6884 /* Pods_EstartaTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E4EA8E00A3AB06D44966B3 /* Pods_EstartaTaskTests.framework */; };
@@ -72,6 +73,7 @@
 		45846B462975D04400037FA8 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		45846B482975E36600037FA8 /* ESImageCachingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESImageCachingManager.swift; sourceTree = "<group>"; };
 		45846B4A2975E3DE00037FA8 /* ESImageFetchingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESImageFetchingManager.swift; sourceTree = "<group>"; };
+		45846B4E2975E9B800037FA8 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		51B01D7D559B9C4C96E170BD /* Pods-EstartaTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstartaTaskTests.release.xcconfig"; path = "Target Support Files/Pods-EstartaTaskTests/Pods-EstartaTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		6707E2A9BE61C4FFC0EC775C /* Pods-EstartaTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstartaTask.release.xcconfig"; path = "Target Support Files/Pods-EstartaTask/Pods-EstartaTask.release.xcconfig"; sourceTree = "<group>"; };
 		773C290EDCEE2E03C5F88512 /* Pods_EstartaTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstartaTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -268,6 +270,7 @@
 		45846B3D2975C99B00037FA8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				45846B4E2975E9B800037FA8 /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -521,6 +524,7 @@
 				4530A3592973559500644B6D /* ItemRow.swift in Sources */,
 				4530A34B2972F1A500644B6D /* ESHomeView.swift in Sources */,
 				45846B472975D04400037FA8 /* AsyncImage.swift in Sources */,
+				45846B4F2975E9B800037FA8 /* String.swift in Sources */,
 				45846B392975C30300037FA8 /* ESDetailsView.swift in Sources */,
 				4530A34D2972F1B300644B6D /* ESHomeViewModel.swift in Sources */,
 			);

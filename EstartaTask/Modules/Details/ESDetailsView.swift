@@ -24,7 +24,7 @@ struct ESDetailsView: View {
                     HStack {
                         Text(item.price).foregroundColor(.blue)
                         Spacer()
-                        Text(item.created_at)
+                        Text(item.created_at.toFormattedDate())
                     }
                     .font(.subheadline)
                     .foregroundColor(.secondary)
