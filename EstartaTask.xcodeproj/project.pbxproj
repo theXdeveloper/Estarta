@@ -14,6 +14,14 @@
 		4530A32D2972D01700644B6D /* EstartaTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A32C2972D01700644B6D /* EstartaTaskTests.swift */; };
 		4530A3372972D01700644B6D /* EstartaTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A3362972D01700644B6D /* EstartaTaskUITests.swift */; };
 		4530A3392972D01700644B6D /* EstartaTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A3382972D01700644B6D /* EstartaTaskUITestsLaunchTests.swift */; };
+		4530A3492972F0EE00644B6D /* ESNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A3482972F0EE00644B6D /* ESNetworkManager.swift */; };
+		4530A34B2972F1A500644B6D /* ESHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A34A2972F1A500644B6D /* ESHomeView.swift */; };
+		4530A34D2972F1B300644B6D /* ESHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A34C2972F1B300644B6D /* ESHomeViewModel.swift */; };
+		4530A34F2972F1CD00644B6D /* ESHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A34E2972F1CD00644B6D /* ESHomeModel.swift */; };
+		4530A3512972F20200644B6D /* ESHomeCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A3502972F20200644B6D /* ESHomeCommunicator.swift */; };
+		4530A3542972F46400644B6D /* ESAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A3532972F46400644B6D /* ESAPIs.swift */; };
+		4530A35729734EEB00644B6D /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A35629734EEB00644B6D /* HomeList.swift */; };
+		4530A3592973559500644B6D /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4530A3582973559500644B6D /* ItemRow.swift */; };
 		A1C382C9CD831CC5EB109F0B /* Pods_EstartaTask_EstartaTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24862CA9965618ED70A3699 /* Pods_EstartaTask_EstartaTaskUITests.framework */; };
 		EF02B401BB292ECE4D6A22D4 /* Pods_EstartaTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773C290EDCEE2E03C5F88512 /* Pods_EstartaTask.framework */; };
 		F40C632A13595CA936BA6884 /* Pods_EstartaTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E4EA8E00A3AB06D44966B3 /* Pods_EstartaTaskTests.framework */; };
@@ -50,6 +58,14 @@
 		4530A3322972D01700644B6D /* EstartaTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstartaTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4530A3362972D01700644B6D /* EstartaTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstartaTaskUITests.swift; sourceTree = "<group>"; };
 		4530A3382972D01700644B6D /* EstartaTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstartaTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4530A3482972F0EE00644B6D /* ESNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESNetworkManager.swift; sourceTree = "<group>"; };
+		4530A34A2972F1A500644B6D /* ESHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESHomeView.swift; sourceTree = "<group>"; };
+		4530A34C2972F1B300644B6D /* ESHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESHomeViewModel.swift; sourceTree = "<group>"; };
+		4530A34E2972F1CD00644B6D /* ESHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESHomeModel.swift; sourceTree = "<group>"; };
+		4530A3502972F20200644B6D /* ESHomeCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESHomeCommunicator.swift; sourceTree = "<group>"; };
+		4530A3532972F46400644B6D /* ESAPIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESAPIs.swift; sourceTree = "<group>"; };
+		4530A35629734EEB00644B6D /* HomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
+		4530A3582973559500644B6D /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		51B01D7D559B9C4C96E170BD /* Pods-EstartaTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstartaTaskTests.release.xcconfig"; path = "Target Support Files/Pods-EstartaTaskTests/Pods-EstartaTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		6707E2A9BE61C4FFC0EC775C /* Pods-EstartaTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstartaTask.release.xcconfig"; path = "Target Support Files/Pods-EstartaTask/Pods-EstartaTask.release.xcconfig"; sourceTree = "<group>"; };
 		773C290EDCEE2E03C5F88512 /* Pods_EstartaTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstartaTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,7 +112,6 @@
 				2FF5E22CD10EEEB05847CD3D /* Pods-EstartaTaskTests.debug.xcconfig */,
 				51B01D7D559B9C4C96E170BD /* Pods-EstartaTaskTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -137,6 +152,9 @@
 			children = (
 				4530A31B2972D01300644B6D /* EstartaTaskApp.swift */,
 				4530A31D2972D01300644B6D /* ContentView.swift */,
+				4530A3522972F44C00644B6D /* Constants */,
+				4530A3472972F0CC00644B6D /* Manager */,
+				4530A3452972F04600644B6D /* Modules */,
 				4530A31F2972D01700644B6D /* Assets.xcassets */,
 				4530A3212972D01700644B6D /* Preview Content */,
 			);
@@ -166,6 +184,59 @@
 				4530A3382972D01700644B6D /* EstartaTaskUITestsLaunchTests.swift */,
 			);
 			path = EstartaTaskUITests;
+			sourceTree = "<group>";
+		};
+		4530A3452972F04600644B6D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4530A3462972F06000644B6D /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4530A3462972F06000644B6D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4530A35529734EB800644B6D /* Model */,
+				45846B362975A9F200037FA8 /* View */,
+				4530A34C2972F1B300644B6D /* ESHomeViewModel.swift */,
+				4530A3502972F20200644B6D /* ESHomeCommunicator.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4530A3472972F0CC00644B6D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4530A3482972F0EE00644B6D /* ESNetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		4530A3522972F44C00644B6D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4530A3532972F46400644B6D /* ESAPIs.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4530A35529734EB800644B6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4530A34E2972F1CD00644B6D /* ESHomeModel.swift */,
+				4530A35629734EEB00644B6D /* HomeList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45846B362975A9F200037FA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4530A34A2972F1A500644B6D /* ESHomeView.swift */,
+				4530A3582973559500644B6D /* ItemRow.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,8 +477,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4530A34F2972F1CD00644B6D /* ESHomeModel.swift in Sources */,
+				4530A3492972F0EE00644B6D /* ESNetworkManager.swift in Sources */,
+				4530A3512972F20200644B6D /* ESHomeCommunicator.swift in Sources */,
+				4530A35729734EEB00644B6D /* HomeList.swift in Sources */,
 				4530A31E2972D01300644B6D /* ContentView.swift in Sources */,
+				4530A3542972F46400644B6D /* ESAPIs.swift in Sources */,
 				4530A31C2972D01300644B6D /* EstartaTaskApp.swift in Sources */,
+				4530A3592973559500644B6D /* ItemRow.swift in Sources */,
+				4530A34B2972F1A500644B6D /* ESHomeView.swift in Sources */,
+				4530A34D2972F1B300644B6D /* ESHomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

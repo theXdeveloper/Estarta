@@ -11,7 +11,8 @@ import SwiftUI
 struct EstartaTaskApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ESHomeView()
+            //ContentView()
         }
     }
 }
